@@ -10,7 +10,7 @@ public class InicioUI extends JFrame {
 
     public static Object[][] datos = {
             {"KEVIN MOLINA", 20, 'A', 2000.50},
-            {"GAEL", 10, 'B', 10000.20},
+            {"KEVIN JAVIER", 10, 'B', 10000.20},
             {"IRIS SAMAHI", 30, 'S', 200.00}
     };
 
