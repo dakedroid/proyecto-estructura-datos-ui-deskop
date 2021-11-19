@@ -1,8 +1,8 @@
-package EstructurasLineales
+package EstructurasLineales.Pilas
 
 fun main (){
 
-   var pilaStrings :  Pila   = ArrayListPila()
+   var pilaStrings : Pila = ArrayListPila()
 
    pilaStrings.llenar("PAPA 1")
    pilaStrings.llenar("PAPA 2")

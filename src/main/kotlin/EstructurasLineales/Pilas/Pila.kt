@@ -1,4 +1,4 @@
-package EstructurasLineales
+package EstructurasLineales.Pilas
 
 interface Pila {
 
