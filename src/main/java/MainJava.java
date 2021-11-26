@@ -4,7 +4,6 @@ public class MainJava {
     public static void main(String[] args) {
         System.out.println("HOLA DESDE JAVA");
 
-        MainKotlinKt.holaKotlin();
 
     }
 
