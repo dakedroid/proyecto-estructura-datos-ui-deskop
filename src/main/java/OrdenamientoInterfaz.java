@@ -43,6 +43,20 @@ public class OrdenamientoInterfaz {
         });
 
 
+        mergeSortButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ordenarMergeSort();
+            }
+        });
+
+
+        bubujaButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 
     public void ordenarQuickSort() {
@@ -53,9 +67,24 @@ public class OrdenamientoInterfaz {
             nombres.add(tabla.getValueAt(i, 0).toString());
         }
 
+
+
+        MainKotlinKt.tiempoQuicksort(nombres);
+
+    }
+
+
+    public void ordenarMergeSort() {
+
+        List<String> nombres = new ArrayList<String>();
+
+        for (int i = 0; i < tabla.getRowCount(); i++) {
+            nombres.add(tabla.getValueAt(i, 0).toString());
+        }
+
         //   MainKotlinKt.tiempoQuicksort(nombres);
 
-      //  MainKotlinKt.imprimirListas(nombres);
+        //  MainKotlinKt.imprimirListas(nombres);
 
         MainKotlinKt.tiempoMergeSort(nombres);
 
